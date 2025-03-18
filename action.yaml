@@ -1,0 +1,7 @@
+name: Test Action
+
+runs:
+  using: composite
+  steps:
+    - name: Test
+      run: ls -la
